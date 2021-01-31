@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="7293" started-at="2021-01-31T15:51:32Z" finished-at="2021-01-31T15:51:40Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="7293" started-at="2021-01-31T15:51:32Z" finished-at="2021-01-31T15:51:40Z">
+      <class name="com.UIAutomationFinalProjectV2.UIAutomationFinalProjectV2.LogoIsDisplayed">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.UIAutomationFinalProjectV2.UIAutomationFinalProjectV2.LogoIsDisplayed@59f99ea]" name="beforeTest" is-config="true" duration-ms="5056" started-at="2021-01-31T15:51:32Z" finished-at="2021-01-31T15:51:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="logo()[pri:0, instance:com.UIAutomationFinalProjectV2.UIAutomationFinalProjectV2.LogoIsDisplayed@59f99ea]" name="logo" duration-ms="2089" started-at="2021-01-31T15:51:37Z" finished-at="2021-01-31T15:51:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logo -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.UIAutomationFinalProjectV2.UIAutomationFinalProjectV2.LogoIsDisplayed@59f99ea]" name="afterTest" is-config="true" duration-ms="122" started-at="2021-01-31T15:51:40Z" finished-at="2021-01-31T15:51:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.UIAutomationFinalProjectV2.UIAutomationFinalProjectV2.LogoIsDisplayed -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
