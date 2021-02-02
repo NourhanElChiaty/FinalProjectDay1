@@ -14,51 +14,35 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.GeckoDriverInfo;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeClass;
 
 public class BaseTest {
 	protected WebDriver driver;
-	  public String getProperty(String key) throws IOException {
-		  Properties prop = new Properties();
-		//  File file = new File(System.getProperty("user.dir")+"\\data.properties");
-		  FileInputStream input = new FileInputStream(System.getProperty("user.dir")+"\\data.properties");
-		  prop.load(input);
-		   
-		return prop.getProperty(key);
-		  
-	  }
+	  PropertyFile prop = new PropertyFile();
 	  
-	  public void setProperty(String key , String value) throws IOException {
-		  Properties prop = new Properties();
-		  FileInputStream stream = new FileInputStream(System.getProperty("user.dir")+"\\data.properties");
-		  prop.load(stream);
-		  prop.setProperty(key, value);
-		  FileOutputStream output = new FileOutputStream(System.getProperty("user.dir")+"\\data.properties");
-		  prop.store(output,"Test comment");
-		
-	  }
-	  
-  @BeforeTest
+  @BeforeClass
   public void beforeTest() throws IOException {
-	  if(getProperty("browserName").equals("chrome")) {
-		  System.out.println(getProperty("browserName"));
+	  if(prop.getProperty("browserName").equals("chrome")) {
+		  System.out.println(prop.getProperty("browserName"));
 		  WebDriverManager.chromedriver().setup();
 		  driver = new ChromeDriver();
 		 // String URL =getProperty("baseURL");
 		  
 		  }
-	  else if(getProperty("browserName").equals("firefox")) {
+	  else if(prop.getProperty("browserName").equals("firefox")) {
 		  WebDriverManager.firefoxdriver().setup();
 		  driver = new FirefoxDriver();
 	  }
-	  driver.navigate().to(getProperty("baseURL"));
-	  System.out.println(getProperty("baseURL"));
+	  driver.navigate().to(prop.getProperty("baseURL"));
+	  System.out.println(prop.getProperty("baseURL"));
 	  driver.manage().window().maximize();
   }
 
-  @AfterTest
+  @AfterClass
   public void afterTest() {
 	  driver.close();
-  }
+ }
 
 }

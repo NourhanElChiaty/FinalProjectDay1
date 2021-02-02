@@ -1,25 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
+    <line>
+      <![CDATA[Electronics]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[Beats Pill 2.0 Wireless Speaker]]>
+    </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="7293" started-at="2021-01-31T15:51:32Z" finished-at="2021-01-31T15:51:40Z">
+  <suite name="Suite" duration-ms="69217" started-at="2021-02-02T19:15:23Z" finished-at="2021-02-02T19:16:32Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="7293" started-at="2021-01-31T15:51:32Z" finished-at="2021-01-31T15:51:40Z">
+    <test name="Test" duration-ms="69217" started-at="2021-02-02T19:15:23Z" finished-at="2021-02-02T19:16:32Z">
       <class name="com.UIAutomationFinalProjectV2.UIAutomationFinalProjectV2.LogoIsDisplayed">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.UIAutomationFinalProjectV2.UIAutomationFinalProjectV2.LogoIsDisplayed@59f99ea]" name="beforeTest" is-config="true" duration-ms="5056" started-at="2021-01-31T15:51:32Z" finished-at="2021-01-31T15:51:37Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.UIAutomationFinalProjectV2.UIAutomationFinalProjectV2.LogoIsDisplayed@42d80b78]" name="beforeTest" is-config="true" duration-ms="5772" started-at="2021-02-02T19:15:23Z" finished-at="2021-02-02T19:15:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="logo()[pri:0, instance:com.UIAutomationFinalProjectV2.UIAutomationFinalProjectV2.LogoIsDisplayed@59f99ea]" name="logo" duration-ms="2089" started-at="2021-01-31T15:51:37Z" finished-at="2021-01-31T15:51:40Z">
+        <test-method status="PASS" signature="logo()[pri:0, instance:com.UIAutomationFinalProjectV2.UIAutomationFinalProjectV2.LogoIsDisplayed@42d80b78]" name="logo" duration-ms="2124" started-at="2021-02-02T19:15:29Z" finished-at="2021-02-02T19:15:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logo -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.UIAutomationFinalProjectV2.UIAutomationFinalProjectV2.LogoIsDisplayed@59f99ea]" name="afterTest" is-config="true" duration-ms="122" started-at="2021-01-31T15:51:40Z" finished-at="2021-01-31T15:51:40Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.UIAutomationFinalProjectV2.UIAutomationFinalProjectV2.LogoIsDisplayed@42d80b78]" name="afterTest" is-config="true" duration-ms="192" started-at="2021-02-02T19:15:31Z" finished-at="2021-02-02T19:15:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
       </class> <!-- com.UIAutomationFinalProjectV2.UIAutomationFinalProjectV2.LogoIsDisplayed -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="com.UIAutomationFinalProjectV2.UIAutomationFinalProjectV2.Registeration">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.UIAutomationFinalProjectV2.UIAutomationFinalProjectV2.Registeration@3bfdc050]" name="beforeTest" is-config="true" duration-ms="4397" started-at="2021-02-02T19:15:31Z" finished-at="2021-02-02T19:15:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="RegisterationTestCase()[pri:0, instance:com.UIAutomationFinalProjectV2.UIAutomationFinalProjectV2.Registeration@3bfdc050]" name="RegisterationTestCase" duration-ms="27600" started-at="2021-02-02T19:15:35Z" finished-at="2021-02-02T19:16:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisterationTestCase -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.UIAutomationFinalProjectV2.UIAutomationFinalProjectV2.Registeration@3bfdc050]" name="afterTest" is-config="true" duration-ms="209" started-at="2021-02-02T19:16:03Z" finished-at="2021-02-02T19:16:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.UIAutomationFinalProjectV2.UIAutomationFinalProjectV2.Registeration -->
+      <class name="com.UIAutomationFinalProjectV2.UIAutomationFinalProjectV2.ShoppingCart">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.UIAutomationFinalProjectV2.UIAutomationFinalProjectV2.ShoppingCart@1bce4f0a]" name="beforeTest" is-config="true" duration-ms="4995" started-at="2021-02-02T19:16:03Z" finished-at="2021-02-02T19:16:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="AddProduct()[pri:0, instance:com.UIAutomationFinalProjectV2.UIAutomationFinalProjectV2.ShoppingCart@1bce4f0a]" name="AddProduct" duration-ms="23672" started-at="2021-02-02T19:16:08Z" finished-at="2021-02-02T19:16:32Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Electronics]]>
+            </line>
+            <line>
+              <![CDATA[]]>
+            </line>
+            <line>
+              <![CDATA[Beats Pill 2.0 Wireless Speaker]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- AddProduct -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.UIAutomationFinalProjectV2.UIAutomationFinalProjectV2.ShoppingCart@1bce4f0a]" name="afterTest" is-config="true" duration-ms="211" started-at="2021-02-02T19:16:32Z" finished-at="2021-02-02T19:16:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.UIAutomationFinalProjectV2.UIAutomationFinalProjectV2.ShoppingCart -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
